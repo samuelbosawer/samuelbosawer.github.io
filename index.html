@@ -1,383 +1,790 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Samuel Bosawer - Website Profile</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:locale" content="id_ID" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Samuel Bosawer - Website Profile" />
-  <meta property="og:description" content="Samuel Bosawer" />
-  <meta property="og:url" content="https://samuelbosawer.github.io/" />
-  <meta property="og:site_name" content="Samuel Bosawer" />
-  <meta property="og:image" content="https://samuelbosawer.github.io/img/logo-samuel-meta.jpg" />
-
-    <!-- Favicon  -->
-    <link rel="icon" href="img/favicon.png">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
-  
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Samuel Bosawer </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Samuel Bosawer - Website Profile" />
+    <meta property="og:description" content="Samuel Bosawer" />
+    <meta property="og:url" content="https://samuelbosawer.github.io/" />
+    <meta property="og:site_name" content="Samuel Bosawer" />
+    <meta property="og:image" content="https://samuelbosawer.github.io/images/fav.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .slide .content .inner .title span{
+            color: #007bff;
+        }
+    </style>
 </head>
-<style>
-  *{
-    font-family: Montserrat;
-  }
-  .text-danger{
-    color: #439aff !important;
-  }
-  .btn-danger ,.bg-danger{
-    border-color:#439aff !important;
-    background-color:#439aff !important;
-  }
-</style>
-<body class="bg-light">
-   <!-- Navbar Start -->
-   <nav class="navbar navbar-light bg-light fixed-top shadow-sm">
-    <div class="container-lg">
-      <a href="" class="navbar-brand text-danger fw-bold fs-4">SB</a>
-      <div class="dropdown">
-        <button class="btn btn-danger px-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bars"></i>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#home">Home</a></li>
-          <li><a class="dropdown-item" href="#about">About</a></li>
-          <li><a class="dropdown-item" href="#services">Services</a></li>
-          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-          <li><a class="dropdown-item" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+
+<body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky shadow">
+        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center mt-3">
+            <!-- Start Header Left -->
+            <!-- End Header Left -->
+            <!-- Start Header Center -->
+            <div class="col-lg-12 col-12 ">
+                <div class="header-left">
+                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block onepagenav">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#whatido">What I Do</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                    <!-- Start Header Right  -->
+                    <div class="header-right">
+                      
+                        <div class="hamberger-menu d-block d-xl-none">
+                            <i id="menuBtn" class="feather-menu humberger-menu"></i>
+                        </div>
+                        <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                            <i data-feather="x"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <!-- End Header Right  -->
+
+                </div>
+            </div>
+            <!-- End Header Center -->
+        </div>
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Popup Mobile Menu  -->
+    <div class="popup-mobile-menu">
+        <div class="inner">
+            <div class="menu-top">
+                <div class="menu-header">
+                    <a class="logo" href="index.html">
+                        <img src="assets/images/fav.png" alt="Personal Portfolio">
+                    </a>
+                    <div class="close-button">
+                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                    </div>
+                </div>
+                <p class="discription">Halo, perkenalkan nama saya Samuel Bosawer. Saya seorang Freelancer Web Developer dan Trainer Coding di SaCode. Selain itu saya memiliki minat dibidang Photographer & Videografer</p>
+            </div>
+            <div class="content">
+                <ul class="primary-menu nav nav-pills onepagenav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whatido">What I Do</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+                </ul>
+                <!-- social sharea area -->
+                <div class="social-share-style-1 mt--40">
+                    <span class="title">find with me</span>
+                    <ul class="social-share d-flex liststyle">
+
+                        <li class="facebook"><a target="_blank" href="https://github.com/samuelbosawer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                </li>
+
+                        <li class="facebook"><a target="_blank" href="https://www.facebook.com/zam.bosawer/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg></a>
+                        </li>
+                        <li class="instagram"><a target="_blank" href="https://www.instagram.com/s.bosawer/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg></a>
+                        </li>
+                        <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/samuel-bosawer-8a278b239/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
     </div>
-  </nav>
-  <!-- Navbar End -->
+    <!-- End Popup Mobile Menu  -->
 
-  <!-- Home section start -->
-      <secion class="home" id="home">
-        <div class="container-lg mt-5">
-          <div class="row min-vh-100 align-items-center align-content-center">
-            <div class="col-md-6 mt-5 mt-md-0">
-              <div class="home-img text-center">
-                <img src="img/profile.png" alt="Profile img" srcset="">
-              </div>
+
+
+
+    <main class="main-page-wrapper">
+
+        <!-- Start Slider Area -->
+        <div id="home" class="rn-slider-area">
+            <div class="slide slider-style-1">
+                <div class="container">
+                    <div class="row row--30 align-items-center">
+                        <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
+                            <div class="content">
+                                <div class="inner">
+                                    <!-- <span class="subtitle"></span> -->
+                                    <h1 class="title">Hai Saya 👋🏽 <br><span> Samuel Bosawer</span><br>
+                                        <span class="header-caption" id="page-top">
+                                            <!-- type headline start-->
+                                            <span class="cd-headline clip is-full-width">
+                                                <span> </span>
+                                        <!-- ROTATING TEXT -->
+                                        <span class="cd-words-wrapper">
+                                                    <b class="is-visible">Web Developer</b>
+                                                    <b class="is-hidden"> Coding Trainer</b>
+                                                    <b class="is-hidden">Photographer  </b>
+                                                    <b class="is-hidden"> Videographer  </b>
+                                                </span>
+                                        </span>
+                                        <!-- type headline end -->
+                                        </span>
+                                    </h1>
+
+                                    <div>
+                                        <p class="description">Halo, perkenalkan nama saya Samuel Bosawer. Saya seorang Freelancer Web Developer dan Trainer Coding di SaCode. Selain itu saya memiliki minat dibidang Photographer & Videografer</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-12">
+                                        <div class="social-share-inner-left">
+                                            <span class="title">find with me</span>
+                                            <ul class="social-share d-flex liststyle">
+                                                <li class="github"><a target="_blank" href="https:/www.github.com/samuelbosawer"><i data-feather="github"></i></a>
+                                                </li>
+
+                                                <li class="facebook"><a target="_blank" href="https://www.facebook.com/zam.bosawer/"><i data-feather="facebook"></i></a>
+                                                </li>
+                                                <li class="instagram"><a target="_blank" href="https://www.instagram.com/s.bosawer/"><i data-feather="instagram"></i></a>
+                                                </li>
+                                                <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/samuel-bosawer-8a278b239"><i data-feather="linkedin"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order-1 order-lg-2 col-lg-5">
+                            <div class="thumbnail">
+                                <div class="inner">
+                                    <img src="assets/images/slider/banner-01.png" alt="Personal Portfolio Images">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-              <div class="home-text">
-                  <div class="home-text">
-                    <p class="text-muted mb-1">Hello I'm</p>
-                   <!-- <h2 class="text-danger text-uppercase">Web Developer | Content Creator</h2> -->
-                    <h3 class="fs-4">Samuel Bosawer</h3>
-                    <p class="mt-4 text-muted">"Satu-satunya cara untuk melakukan pekerjaan hebat adalah dengan mencintai apa yang kamu lakukan."</p>
-                    <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
-                  </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </secion>
-  <!-- Home section end -->
-  
-  <!-- About section start -->
-  <section class="about py-5" id="about">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 ">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">About Me</h2>
-          </div>
+        <!-- End Slider Area -->
+
+        <!-- Start Service Area -->
+        <div class="rn-service-area rn-section-gap section-separator" id="whatido">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
+                            <!-- <span class="subtitle">Features</span> -->
+                            <h2 class="title">What I Do</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--25 mt_md--10 mt_sm--10">
+
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="globe"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Web Development</a></h4>
+                                    <p class="description">Saya dapat membantu dalam pembuatan dan pemeliharaan situs web atau aplikasi web sesuai dengan kebutuhan kalian.</p>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+
+                            <!-- Start Single Service -->
+                            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                                <div class="rn-service">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i data-feather="video"></i>
+                                            <i data-feather="camera"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title"><a href="#">Photo & Video</a></h4>
+                                            <p class="description">Dapatkan momen tak terlupakan Anda secara profesional dengan jasa Photo & Video </p>
+                                         
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End SIngle Service -->
+
+                              <!-- Start Single Service -->
+                              <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                                <div class="rn-service">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i data-feather="pen-tool"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title"><a href="#">Design</a></h4>
+                                            <p class="description">Solusi untuk menciptakan visual yang menarik perhatian, mempromosikan acara, produk, atau layanan dengan cara yang kreatif dan profesional. </p>
+                                         
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End SIngle Service -->
+               
+
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-            <div class="about-text ">
-              <p class="">Perkenalkan nama saya Samuel Bosawer. Saya seorang web developer dan content creator</p>
+        <!-- End Service Area  -->
+
+        <!-- Start Portfolio Area -->
+        <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <!-- <span class="subtitle">Visit my portfolio and keep your feedback</span> -->
+                            <h2 class="title">My Portfolio</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="https://sipakot.jayapurakota.go.id" target="_blank">
+                                        <img src="assets/images/portfolio/portfolio-01.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="https://sipakot.jayapurakota.go.id" target="_blank">sipakot.jayapurakota.go.id</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="https://sipakot.jayapurakota.go.id" target="_blank">Sistem Informasi Pengengolaan Pajak Air Tanah Pemerintah </a> </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                      <!-- Start Single Portfolio -->
+                      <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="https://smkpkhermontimika.sch.id" target="_blank">
+                                        <img src="assets/images/portfolio/portfolio-02.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="https://smkpkhermontimika.sch.id" target="_blank">smkpkhermontimika.sch.id</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="https://smkpkhermontimika.sch.id" target="_blank">SMKS Hermon Energi dan Pertambangan Mimika </a> </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    
+                      <!-- Start Single Portfolio -->
+                      <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="https://silanny.lannyjayakab.id" target="_blank">
+                                        <img src="assets/images/portfolio/portfolio-03.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="https://silanny.lannyjayakab.id" target="_blank">silanny.lannyjayakab.id</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="https://silanny.lannyjayakab.id" target="_blank">Sistem Informasi Laporan Penyelenggaraan Pemerintah Kabupaten Lanny Jaya </a> </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                      <!-- Start Single Portfolio -->
+                      <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="https://dlhk.jayapurakota.go.id" target="_blank">
+                                        <img src="assets/images/portfolio/portfolio-04.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="https://dlhk.jayapurakota.go.id" target="_blank">dlhk.jayapurakota.go.id</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="https://dlhk.jayapurakota.go.id" target="_blank">DLHK Kota Jayapura </a> </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    
+                      <!-- Start Single Portfolio -->
+                      <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="https://www.instagram.com/s.bos_production/" target="_blank">
+                                        <img src="assets/images/portfolio/portfolio-05.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="https://www.instagram.com/s.bos_production/" target="_blank">S.BOS Production</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="https://www.instagram.com/s.bos_production/" target="_blank">Foto & Video </a> </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+
+
+                </div>
             </div>
-            <div class="row text-center text-uppercase my-3">
-
-              <div class="col-sm-6">
-                <div class="fact-item">
-                  <a href="https://github.com/samuelbosawer" class="text-dark text-decoration-none" target="_blank">
-                    <h4 class="fs-1 fw fw-bold" > <i class="fab fa-github"></i></h4>
-                    <p class="text-muted ">Github</p>
-                </a>
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <div class="fact-item">
-                  <a href="https://www.linkedin.com/in/samuel-bosawer-8a278b239/" class="text-dark text-decoration-none" target="_blank">
-                    <h4 class="fs-1 fw fw-bold" > <i class="fab fa-linkedin"></i></h4>
-                    <p class="text-muted ">linkedin</p>
-                </a>
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <div class="fact-item">
-                  <a href="https://www.instagram.com/s.bosawer/" class="text-dark text-decoration-none" target="_blank">
-                    <h4 class="fs-1 fw fw-bold" > <i class="fab fa-instagram"></i></h4>
-                    <p class="text-muted ">instagram</p>
-                </a>
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <div class="fact-item">
-                  <a href="https://www.youtube.com/channel/UCvpgqv_dOiV7S4DrfrlNuCw" class="text-dark text-decoration-none" target="_blank">
-                    <h4 class="fs-1 fw fw-bold" > <i class="fab fa-youtube"></i></h4>
-                    <p class="text-muted ">youtube</p>
-                </a>
-                </div>
-              </div>
-
-            </div>
-            <!-- <div class="row">
-                <div class="col-lg-12 col-md-6 d-flex align-items-center">
-                  <a href="" class="btn btn-danger me-5 px-3" >Download CV</a>
-                  <div class="social-links">
-                    <a href="" class="text-dark m-2"> <i class="fab fa-facebook-f"></i></a>
-                    <a href="" class="text-dark m-2"> <i class="fab fa-instagram"></i></a>
-                    <a href="" class="text-dark m-2"> <i class="fab fa-github"></i></a>
-                    <a href="" class="text-dark m-2"> <i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-            </div> -->
         </div>
-        <div class="col-md-6  mt-3">
-          <div class="skill-item mb-4" >
-            <h3>HTML</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <!-- End portfolio Area -->
+        <!-- Start Resume Area -->
+        <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <!-- <span class="subtitle">7+ Years of Experience</span> -->
+                            <h2 class="title">My Resume</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt--45">
+                    <div class="col-lg-12">
+                        <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="professional-tab" data-bs-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="false">professional
+                                    Skills</a>
+                            </li>
+                          
+                            <li class="nav-item">
+                                <a class="nav-link" id="job-tab" data-bs-toggle="tab" href="#job" role="tab" aria-controls="job" aria-selected="false">Job Experience</a>
+                            </li>
+                        </ul>
+
+                        <!-- Start Tab Content Wrapper  -->
+                        <div class="rn-nav-content tab-content" id="myTabContents">
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row">
+                                        <!-- Start Skill List Area  -->
+                                        <div class="col-lg-12 col-md-12 col-12">
+                                            <div class="content">
+                                                <!-- <span class="subtitle">2007 - 2010</span> -->
+                                                <h4 class="maintitle">Education History</h4>
+                                                <div class="experience-list">
+
+                                                      <!-- Start Single List  -->
+                                                      <div class="resume-single-list">
+                                                        <div class="inner">
+                                                            <div class="heading">
+                                                                <div class="title">
+                                                                    <h4>Teknik Informatika </h4>
+                                                                    <span>Universitas Sains & Teknologi Jayapura</span>
+                                                                </div>
+                                                                <div class="date-of-time">
+                                                                    <span>2016 - 2021</span>
+                                                                </div>
+                                                            </div>
+                                                            <p class="description"> Berkuliah di Universitas Sains & Teknologi Jayapura pada jurusan Teknik Informatika tahun 2016 dan lulus pada tahun 2021</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single List  -->
+
+                                                    <!-- Start Single List  -->
+                                                    <div class="resume-single-list">
+                                                        <div class="inner">
+                                                            <div class="heading">
+                                                                <div class="title">
+                                                                    <h4>Teknik Komputer dan Jaringan</h4>
+                                                                    <span>SMK Negeri 3 Kotaraja </span>
+                                                                </div>
+                                                                <div class="date-of-time">
+                                                                    <span>2013 - 2016</span>
+                                                                </div>
+                                                            </div>
+                                                            <p class="description"> Bersekolah di SMK Negeri 3 Kotaraja dengan mengambil jurusan Teknik Komputer dan Jaringan (TKJ) </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single List  -->
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Skill List Area  -->
+
+                                     
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row row--40">
+
+                                    
+
+                                        <!-- Start Single Progressbar  -->
+                                        <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                                            <div class="progress-wrapper">
+                                                <div class="content">
+                                                    <!-- <span class="subtitle">Features</span> -->
+                                                    <h4 class="maintitle">Development Skill</h4>
+
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">TAILWIND CSS</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                            class="percent-label">50%</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                    
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Bootstrap</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                            class="percent-label">85%</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">JAVASCRIPT</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                            class="percent-label">90%</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                    
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">PHP</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                            class="percent-label">90%</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                      <!-- Start Single Progress Charts -->
+                                                      <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Laravel</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                            class="percent-label">85%</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progressbar  -->
+
+                                            <!-- Start Single Progressbar  -->
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="progress-wrapper">
+                                                    <div class="content">
+                                                        <!-- <span class="subtitle">Features</span> -->
+                                                        <h4 class="maintitle">Other Skill</h4>
+                                                        <!-- Start Single Progress Charts -->
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">PHOTO SHOT</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                                class="percent-label">70%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Single Progress Charts -->
+    
+                                                        <!-- Start Single Progress Charts -->
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">VIDEO SHOT</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                                class="percent-label">80%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Single Progress Charts -->
+    
+                                                        <!-- Start Single Progress Charts -->
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">CANVA</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                                class="percent-label">85%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Single Progress Charts -->
+    
+                                                        <!-- Start Single Progress Charts -->
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">ADOBE PREMIERE </h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                                class="percent-label">90%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Single Progress Charts -->
+    
+                                                        <!-- Start Single Progress Charts -->
+                                                        <div class="progress-charts">
+                                                            <h6 class="heading heading-h6">ADOBE PHOTOSHOP</h6>
+                                                            <div class="progress">
+                                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                                class="percent-label">80%</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Single Progress Charts -->
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Progressbar  -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+
+               
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane fade" id="job" role="tabpanel" aria-labelledby="job-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row">
+
+                                        <!-- Start Skill List Area 2nd  -->
+                                        <div class="col-lg-12 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                            <div class="content">
+                                                <!-- <span class="subtitle">2021 - NOW</span> -->
+                                                <h4 class="maintitle">Job Experience</h4>
+                                                <div class="experience-list">
+
+                                                    <!-- Start Single List  -->
+                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list">
+                                                        <div class="inner">
+                                                            <div class="heading">
+                                                                <div class="title">
+                                                                    <h4>Trainer Coding & Contributor di SaCode</h4>
+                                                                    <p><a href="https://sacode.web.id" class="btn btn-secondary btn-lg" target="_blank">sacode.web.id</a></p>
+                                                                </div>
+                                                                <div class="date-of-time">
+                                                                    <span>2021 - Sekarang</span>
+                                                                </div>
+                                                            </div>
+                                                            <p class="description">
+                                                                SaCode merupakan Komunitas Teknologi Informasi dan Sekolah Coding di Papua.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single List  -->
+
+                                                            <!-- Start Single List  -->
+                                                            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list">
+                                                                <div class="inner">
+                                                                    <div class="heading">
+                                                                        <div class="title">
+                                                                            <h4>Partime Web Developer & Trainer Komputer Literasi di SAGU Foundation</h4>
+                                                                            <p><a href="https://sagufoundation.org" class="btn btn-secondary btn-lg" target="_blank">sagufoundation.org</a></p>
+                                                                        </div>
+                                                                        <div class="date-of-time">
+                                                                            <span>2023 - Sekarang</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <p class="description">
+                                                                        SAGU Foundation merupakan lembaga perbedayaan sumber daya manusia yang terletak di Kota Jayapura Papua.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- End Single List  -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Skill List Area  -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3>CSS</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3>Javascript</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3>Bootstrap</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3>PHP</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3>Laravel</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3>CI</h3>
-            <div class="progress" style="height:5px">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
         </div>
+        <!-- End Resume Area -->
+        <!-- Start Testimonia Area  -->
        
-      </div>
-    </div>
-  </section>
 
-  <!-- About section start -->
-  <section class="services py-5" id="services">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 ">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">What I DO</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-6 col-lg-4 mb-4">
-            <div class="service-item shadow p-4 rounded">
-              <div class="icon text-danger fs-2">
-                <i class="fas fa-code"></i>
-              </div>
-              <h3 class="fs-5 py-2">Web Development</h3>
-              <p class="text-muted">Pembuatan dan pengembangan website</p>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="service-item shadow p-4 rounded">
-            <div class="icon text-danger fs-2">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <h3 class="fs-5 py-2">Creative Design</h3>
-            <p class="text-muted">Pembuatan poster, kartu nama dan lain-lain</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="service-item shadow p-4 rounded">
-            <div class="icon text-danger fs-2">
-              <i class="fas fa-lightbulb"></i>
-            </div>
-            <h3 class="fs-5 py-2">Foto & Video</h3>
-            <p class="text-muted">Wedding, Promosi, Vlog <br>dan tutorial</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About section end -->
-
-  <!-- service porfolio start -->
-  <section class="portfolio py-5" id="portfolio">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 ">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">Latest Works</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="portofolio-item">
-            <img src="img/portfolio/1.jpg" alt="" class="w-100 img-thumbnail" alt="portofolio item">
-            <h3 class="text-capitalize fs-5 mt-2">WEBSITE ESGE PARK</h3>
-            <p class="mb-4"><a href="https://esgepark.co.id/" target="_blank" class="text-black text-decoration-none btn btn-danger">
-
-              <i class="fa fa-eye"></i>
-            </a></p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="portofolio-item">
-            <img src="img/portfolio/2.jpg" alt="" class="w-100 img-thumbnail" alt="portofolio item">
-            <h3 class="text-capitalize fs-6 mt-2">PEGEMBANGAN SISTEM INFORMASI PENGELOLAAN PAJAK AIR TANAH PEMERINTAH KOTA JAYAPURA TAHUN 2022</h3>
-            <p class="mb-4"><a href="https://sipakot.jayapurakota.go.id/" target="_blank" class="text-black text-decoration-none btn btn-danger">              <i class="fa fa-eye"></i>
-            </a></p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="portofolio-item">
-            <img src="img/portfolio/3.jpg" alt="" class="w-100 img-thumbnail" alt="portofolio item">
-            <h3 class="text-capitalize fs-5 mt-2">FOTO DAN VIDEO</h3>
-            <p class="mb-4"><a href="https://www.instagram.com/s.bos_production/" class="text-black text-decoration-none btn btn-danger"  target="_blank" > <i class="fa fa-eye"></i></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- service porfolio end -->
-
-  <!-- freelencer avalable start -->
-  <section class="freelancer-available py-5 bg-danger">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <p class="text-light fs-5">Do you have any project ?</p>
-            <h2 class="fs-1 text-white mb-4"> I'm Available For Freelncer Projects</h2>
-            <a href="https://wa.me/082198159714/?text=Hallo%20Samuel" target="_blank" class="btn btn-outline-light">Hire Me</a>
-          </div>
-      </div>
-    </div>
-  </section>
-  <!-- freelencer avalable end -->
-
-  <!-- Contact section start -->
-  <section id="contact">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="fs-1  mb-4"> Contact Me</h2>
-        </div>
-      </div>
-      <div class="row">
-         <div class="col-md-4">
-          <a href="mailto:zam.bosawer@gmail.com" target="_blank" class="text-decoration-none">
-          <div class="contact-item d-flex mb-3">
-            <div class="icon fs-4 text-danger">
-              <i class="fas  fa-envelope"></i>
-            </div>
-            <div class="text ms-3">
-              <h3 class="fs-5">Email</h3>
-              <p class="text-muted m-0">zam.bosawer@gmail.com</p>
-            </div>
-          </div>
-        </a>
-         </div>
-         <div class="col-md-4">
-          <a href="https://wa.me/082198159714/?text=Hallo%20Samuel" target="_blank"  class="text-decoration-none">
-            <div class="contact-item d-flex mb-3">
-              <div class="icon fs-4 text-danger">
-                <i class="fab fa-whatsapp"></i>
-              </div>
-              <div class="text ms-3">
-                <h3 class="fs-5">Phone</h3>
-                <p class="text-muted m-0">082198159714</p>
-              </div>
-            </div>
-          </a>
-         </div>
-         <div class="col-md-4">
-          <div class="contact-item d-flex mb-3">
-            <div class="icon fs-4 text-danger">
-              <i class="fas fa-map-marked-alt"></i>
-            </div>
-            <div class="text ms-3">
-              <h3 class="fs-5">Visit</h3>
-              <p class="text-muted m-0">BTN Simpama, Kabupaten Jayapura, Provinsi Papua</p>
-            </div>
-          </div>
-         </div>
-         <!-- <div class="col-md-7">
-            <div class="contact-form">
-              <form action="">
+        <!-- Start Contact section -->
+        <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
+            <div class="container">
                 <div class="row">
-                  <div class="col-lg-6 mb-4">
-                    <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                  </div>
-                  <div class="col-lg-6 mb-4">
-                    <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                  </div>
-                  <div class="col-lg-12 mb-4">
-                    <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                  </div>
-                  <div class="col-lg-12 mb-4">
-                    <textarea name="" class="form-control form-control-lg fs-6 border-0 shadow-sm" placeholder="Your Message" cols="30" rows="10"></textarea>
-                  </div>
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2 class="title">Contact</h2>
+                            <!-- <span class="subtitle"></span> -->
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                  <div class="col-lg-12">
-                    <button type="submit" class="btn btn-danger px-3">Submit</button>
-                  </div>
+
+                <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
+                    <div class="col-lg-12">
+                        <div class="contact-about-area">
+                           <div class="row">
+                            <div class="col-md-4 my-auto">
+                                <div class="">
+                                    <img src="assets/images/fav.png" width="" alt="contact-img">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="title-area">
+                                    <h4 class="title">Samuel Bosawer</h4>
+                                    <span>Web Developer | Photographer & Videografer</span>
+                                </div>
+                                <div class="description">
+                                    <p>Jangan ragu untuk menghubungi saya jika anda memerlukan bantuan
+                                    </p>
+                                    <span class="phone">Phone: <a href="tel:082198159714">082198159714</a></span>
+                                    <span class="mail">Email: <a href="mailto:zambosawer@gmail.com">zambosawer@gmail.com</a></span>
+                                </div>
+                                <div class="social-area">
+                                    <div class="name">FIND WITH ME</div>
+                                    <div class="social-icone">
+                                        <a target="_blank" href="https://github.com/samuelbosawer"><i data-feather="github"></i></a>
+                                        <a target="_blank" href="https://www.facebook.com/zam.bosawer/"><i data-feather="facebook"></i></a>
+                                        <a target="_blank" href="https://www.instagram.com/s.bosawer/"><i data-feather="linkedin"></i></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/samuel-bosawer-8a278b239/"><i data-feather="instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                           </div>
+                            
+                        </div>
+                    </div>
+                
                 </div>
-              </form>
             </div>
-         </div> -->
-      </div>
-    </div>
-  </section>
-  <!-- End Contact section start -->
-
-  <!-- Footer start -->
-  <footer class="footer border-top py-4 bg-danger text-white">
-    <div class="container-lg">
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="m-0 text-center">&copy; 2022 Samuel Bosawer</p>
         </div>
-      </div>
-    </div>
-  </footer>
-  <!-- End Footer start -->
+        <!-- End Contuct section -->
+        <!-- Modal Portfolio Body area Start -->
 
-<script src="js/bootstrap.bundle.min.js"></script>
+        <!-- End Modal Portfolio area -->
+
+        <!-- Back to  top Start -->
+        <div class="backto-top">
+            <div>
+                <i data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- Back to top end -->
+
+
+ 
+
+    </main>
+    <!-- Start Footer Area -->
+    <div class="rn-footer-area rn-section-gap section-separator">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-area text-center">
+
+                        <p class="description mt--30">© 2024. All rights reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Area -->
+    <!-- JS ============================================ -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/modernizer.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.js"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <script src="assets/js/vendor/aos.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- main JS -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
